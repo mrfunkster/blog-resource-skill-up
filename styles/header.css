@@ -274,6 +274,7 @@ img {
             position: relative;
             width: 25px;
             height: 25px;
+            margin-right: 10px;
         }
         .bin-count {
             position: absolute;

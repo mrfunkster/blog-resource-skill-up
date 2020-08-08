@@ -1,7 +1,6 @@
 let burgerBtn = document.querySelector('.mobile-menu');
 let navMenu   = document.querySelector('.nav-menu');
 let overlay   = document.querySelector('.overlay');
-let main      = document.querySelector('.main');
 let topMenu   = document.querySelector('.top-menu')
 
 burgerBtn.addEventListener('click', function() {
@@ -24,8 +23,8 @@ function closeBurger() {
     document.body.classList.remove('lock');
 }
 
-main.addEventListener('click', function(e) {
-    if (e.target != main) {
+overlay.addEventListener('click', function(e) {
+    if (e.target = overlay) {
         closeBurger();
     }
 })
