@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.p-height {
+    height: inherit;
+}
+
+.v-centered {
+    align-items: center;
+}
+
+@media(max-width: 767px) {
+
+}
+/* Tablet */
+@media(min-width: 768px) {
+
+}
+/* Laptop */
+@media(min-width: 992px) {
+
+}
+/* Desktop */
+@media(min-width: 1200px) {
+
+}
