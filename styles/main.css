@@ -183,8 +183,59 @@
     margin-right: 5px;
 }
 
+/* Blog Card Small Vertical */
+.blog-card-small-vertical-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blog-card-small-vertical {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+}
+.blog-cart-small-vertical-content {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-card-small-horizontal-author-info {
+    height: 85px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.blog-card-small-vertical-img {
+    position: relative;
+    background-color: black;
+}
+.blog-card-small-vertical-img img{
+    opacity: .7;
+}
+.vertical-card h4 {
+    font-size: 15px;
+}
+
+
+@media(max-width: 767px) {
+    .blog-card-small-horizontal {
+        flex-wrap: wrap;
+    }
+    .blog-cart-small-img {
+        width: 100%;
+    }
+}
+
 @media(max-width: 991px) {
-    
+    .blog-card-small-vertical {
+        width: 100%;
+    }
 }
 /* Tablet */
 @media(min-width: 768px) {
