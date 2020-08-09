@@ -24,6 +24,9 @@ body.lock {
 .v-centered {
     align-items: center;
 }
+.centered {
+    justify-content: center;
+}
 
 @media(max-width: 767px) {
 
