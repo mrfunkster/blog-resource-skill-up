@@ -294,8 +294,9 @@
 }
 .subscribe-section-content h4 {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 600;
+    letter-spacing: 2.1px;
 }
 .subscribe-section-content input {
     background-color: rgba(0, 0, 0, 0.38);
